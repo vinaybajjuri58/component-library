@@ -13,10 +13,6 @@
   --font-color: #fffff3;
   font-family: "Open Sans", sans-serif;
 }
-
-button {
-  padding: var(--space-1) var(--space-2);
-}
 .alert {
   border: 1px solid black;
   width: 100%;
@@ -59,4 +55,20 @@ button {
 .badge-warning {
   background-color: var(--warning);
   color: var(--font-color);
+}
+.button {
+  background-color: var(--primary-color);
+  color: var(--font-color);
+  padding: var(--space-1) var(--space-2);
+  border-radius: 0.5rem;
+  font-size: var(--font-size);
+}
+.button-primary {
+  background-color: var(--primary);
+}
+.button-success {
+  background-color: var(--success);
+}
+.button-warning {
+  background-color: var(--warning);
 }
