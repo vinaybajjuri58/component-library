@@ -12,6 +12,8 @@
   --warning: #e74c3c;
   --font-color: #fffff3;
   font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 .alert {
   border: 1px solid black;
@@ -22,7 +24,7 @@
   font-size: var(--font-size);
   margin: 0.5rem;
 }
-.alert > p {
+.alert-text {
   padding-left: 1rem;
 }
 .alert-primary {
@@ -33,10 +35,6 @@
 }
 .alert-warning {
   background-color: var(--warning);
-}
-.component {
-  width: 80%;
-  margin: auto;
 }
 .badge {
   background-color: var(--primary-color);
@@ -71,4 +69,43 @@
 }
 .button-warning {
   background-color: var(--warning);
+}
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-shadow: 0 2px 2px 2px #ccc;
+}
+.card-img {
+  width: 100%;
+}
+.card-title {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  margin: 0.5rem;
+}
+.card-text {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.avator {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.image {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+}
+.image-sm {
+  width: 300px;
+  height: 300px;
+}
+.image-md {
+  width: 400px;
+  height: 400px;
 }

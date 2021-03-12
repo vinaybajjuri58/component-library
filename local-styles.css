@@ -1,0 +1,17 @@
+.components {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.component {
+  margin: 0.5rem;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+}
+.image-component {
+  margin: 0.5rem;
+}
